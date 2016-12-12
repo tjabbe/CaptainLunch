@@ -1,4 +1,4 @@
-package com.example.martin.captainlaunch;
+package com.example.martin.captainlunch;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
