@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "176096857723",
+    "firebase_url": "https://lunch-93772.firebaseio.com",
+    "project_id": "lunch-93772",
+    "storage_bucket": "lunch-93772.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176096857723:android:af8787354a35299b",
+        "android_client_info": {
+          "package_name": "com.example.martin.captainlaunch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176096857723-fot14b293mmqpvqlbl08trgjrk4amam8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.martin.captainlaunch",
+            "certificate_hash": "13C841B90071ADBDD14DC65E01D29747EFD3D329"
+          }
+        },
+        {
+          "client_id": "176096857723-4n1rdn0dk52lll9o5lfh3av83lo0b974.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3fUMY4UPw9twKTg4CYmjs1bC9YKTtDIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176096857723-4n1rdn0dk52lll9o5lfh3av83lo0b974.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
