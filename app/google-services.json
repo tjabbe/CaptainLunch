@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:176096857723:android:af8787354a35299b",
+        "mobilesdk_app_id": "1:176096857723:android:45090209c5d3754f",
         "android_client_info": {
-          "package_name": "com.example.martin.captainlaunch"
+          "package_name": "com.example.martin.captainlunch"
         }
       },
       "oauth_client": [
         {
-          "client_id": "176096857723-fot14b293mmqpvqlbl08trgjrk4amam8.apps.googleusercontent.com",
+          "client_id": "176096857723-8kdofdk512c7ne76jr66g0teg0t0jh2k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.martin.captainlaunch",
+            "package_name": "com.example.martin.captainlunch",
             "certificate_hash": "13C841B90071ADBDD14DC65E01D29747EFD3D329"
           }
         },
@@ -42,6 +42,13 @@
             {
               "client_id": "176096857723-4n1rdn0dk52lll9o5lfh3av83lo0b974.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "176096857723-0h7l72h3jaaot4loghhhn90612c59f7g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fr.hetic.Lunch"
+              }
             }
           ]
         },
