@@ -21,6 +21,7 @@
         <activity android:name=".activity.LoginActivity"></activity>
         <activity android:name=".activity.CreateTeamActivity"></activity>
         <activity android:name=".activity.JoinTeamActivity"></activity>
+        <activity android:name=".activity.TeamCreatedActivity"></activity>
     </application>
 
 </manifest>

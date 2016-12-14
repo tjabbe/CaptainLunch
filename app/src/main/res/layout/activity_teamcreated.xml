@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:ignore="MissingPrefix"
+    tools:context=".activity.TeamCreatedActivity">
+
+    <LinearLayout
+        android:id="@+id/teamcode_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/teamcode"
+            android:text="1337"
+            android:textSize="64sp"
+            android:textColor="@color/colorAccent"
+            android:letterSpacing="0.1"
+            fontPath="fonts/geomanist-regular.ttf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamname"
+            android:text="H4 - P2018"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            fontPath="fonts/geomanist-bold.ttf"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextcreateteambutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/next_button"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:letterSpacing="0.1"
+        android:background="@drawable/rounded_button"
+        fontPath="font/geomanist-medium.ttf" />
+
+</RelativeLayout>

@@ -3,6 +3,7 @@
 
     <string name="create_team_button">Je crée mon équipe</string>
     <string name="next_button">Suivant</string>
+    <string name="understood_button">C\'est compris !</string>
 
     <string name="name">Nom</string>
     <string name="firstname">Prénom</string>

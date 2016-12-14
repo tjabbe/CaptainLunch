@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:ignore="MissingPrefix"
+    tools:context=".activity.TrainJoinedActivity">
+
+    <LinearLayout
+        android:id="@+id/trainjoined_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:id="@+id/trainjoin_bravo"
+            android:text="Bravo !"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:letterSpacing="0.1"
+            fontPath="fonts/geomanist-bold.ttf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/trainjoined_name"
+            android:text="Vous avez rejoint le train en direction de La Table d’Émile."
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            fontPath="fonts/geomanist-regular.ttf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/trainjoined_time"
+            android:text="Le train partira à 12H30.."
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            fontPath="fonts/geomanist-regular.ttf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:id="@+id/trainjoined_notif"
+            android:text="Une notification vous sera envoyée 5 minutes avant le départ."
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            fontPath="fonts/geomanist-regular.ttf"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextcreateteambutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/inputadressteam"
+        android:text="@string/next_button"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:letterSpacing="0.1"
+        android:background="@drawable/rounded_button"
+        fontPath="font/geomanist-medium.ttf" />
+</RelativeLayout>

@@ -6,15 +6,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 /**
@@ -84,9 +81,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
             public void afterTextChanged(Editable s) {
                 if (s.length() == 4) {
-                    Intent JoinTeam = new Intent(LoginActivity.this, JoinTeamActivity.class);
-                    startActivity(JoinTeam);
-                    code_count.setText("");
+
+                    new android.os.Handler().postDelayed(
+                    new Runnable() {
+                        public void run() {
+                            Intent JoinTeam = new Intent(LoginActivity.this, JoinTeamActivity.class);
+                            startActivity(JoinTeam);
+                            code_count.setText("");
+                        }
+                    }, 400);
+
                 }
             }
         };
