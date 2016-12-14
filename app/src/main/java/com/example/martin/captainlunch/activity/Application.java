@@ -1,5 +1,6 @@
-package com.example.martin.captainlunch;
+package com.example.martin.captainlunch.activity;
 
+import com.example.martin.captainlunch.R;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 /**
@@ -7,6 +8,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
  */
 
 public class Application extends android.app.Application {
+
     @Override
     public void onCreate() {
         super.onCreate();

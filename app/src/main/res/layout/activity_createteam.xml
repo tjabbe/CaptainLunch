@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
     tools:ignore="MissingPrefix"
-    tools:context=".CreateTeamActivity">
+    tools:context=".activity.CreateTeamActivity">
 
     <RelativeLayout
         android:layout_width="wrap_content"

@@ -1,4 +1,6 @@
-package com.example.martin.captainlunch;
+package com.example.martin.captainlunch.activity;
+
+import com.example.martin.captainlunch.R;
 
 import android.os.Bundle;
 import android.content.Intent;

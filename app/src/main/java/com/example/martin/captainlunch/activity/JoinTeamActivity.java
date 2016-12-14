@@ -1,5 +1,6 @@
-package com.example.martin.captainlunch;
+package com.example.martin.captainlunch.activity;
 
+import com.example.martin.captainlunch.R;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,28 +14,29 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
  * Created by Martin on 13/12/2016.
  */
 
-public class CreateTeamActivity extends AppCompatActivity implements View.OnClickListener {
+public class JoinTeamActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button next;
+    private Button next;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_createteam);
+        setContentView(R.layout.activity_jointeam);
 
-        next = (Button) findViewById(R.id.nextcreateteambutton);
-
+        next = (Button) findViewById(R.id.jointeambutton);
         next.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View view) {
         int id = view.getId();
 
-        if (id == R.id.nextcreateteambutton) {
-            Intent intent = new Intent(this, TeamCreatedActivity.class);
+        if (id == R.id.jointeambutton) {
+            Intent MainActivity = new Intent(this, MainActivity.class);
             Intent intent_finish = new Intent("finish_activity");
-            startActivity(intent);
+            startActivity(MainActivity);
             finish();
             sendBroadcast(intent_finish);
         }

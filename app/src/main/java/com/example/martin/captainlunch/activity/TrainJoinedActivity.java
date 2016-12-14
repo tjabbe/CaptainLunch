@@ -1,5 +1,6 @@
-package com.example.martin.captainlunch;
+package com.example.martin.captainlunch.activity;
 
+import com.example.martin.captainlunch.R;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;

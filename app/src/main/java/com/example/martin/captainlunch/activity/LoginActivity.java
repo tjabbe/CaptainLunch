@@ -1,5 +1,6 @@
-package com.example.martin.captainlunch;
+package com.example.martin.captainlunch.activity;
 
+import com.example.martin.captainlunch.R;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -79,15 +80,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             }
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
+            }
 
+            public void afterTextChanged(Editable s) {
                 if (s.length() == 4) {
                     Intent JoinTeam = new Intent(LoginActivity.this, JoinTeamActivity.class);
                     startActivity(JoinTeam);
                     code_count.setText("");
                 }
-            }
-
-            public void afterTextChanged(Editable s) {
             }
         };
 

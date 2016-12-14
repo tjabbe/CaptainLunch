@@ -1,5 +1,6 @@
-package com.example.martin.captainlunch;
+package com.example.martin.captainlunch.activity;
 
+import com.example.martin.captainlunch.R;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,7 +12,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
  * Created by Martin on 13/12/2016.
  */
 
-public class TeamCreatedActivity extends AppCompatActivity {
+public class TrainsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

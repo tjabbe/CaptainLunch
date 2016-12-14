@@ -1,17 +1,22 @@
-package com.example.martin.captainlunch;
+package com.example.martin.captainlunch.activity;
+
+import com.example.martin.captainlunch.R;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by Martin on 13/12/2016.
+ */
 
+public class CreateTrain extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
     }
 
     @Override

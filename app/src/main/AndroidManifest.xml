@@ -3,13 +3,13 @@
     package="com.example.martin.captainlunch">
 
     <application
-        android:name=".Application"
+        android:name=".activity.Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Splash">
+        <activity android:name=".activity.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".CreateTeamActivity"></activity>
-        <activity android:name=".JoinTeamActivity"></activity>
+        <activity android:name=".activity.MainActivity"></activity>
+        <activity android:name=".activity.LoginActivity"></activity>
+        <activity android:name=".activity.CreateTeamActivity"></activity>
+        <activity android:name=".activity.JoinTeamActivity"></activity>
     </application>
 
 </manifest>

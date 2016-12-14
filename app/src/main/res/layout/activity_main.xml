@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/gradient"
     tools:ignore="MissingPrefix"
-    tools:context="com.example.martin.captainlunch.MainActivity">
+    tools:context=".activity.MainActivity">
 
     <ImageView
         android:layout_width="wrap_content"
