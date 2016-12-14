@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:ignore="MissingPrefix"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logohat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logohat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <LinearLayout
+        android:id="@+id/codeform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logohat"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/jointext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Je rejoins une équipe"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            fontPath="fonts/geomanist-bold.ttf" />
+
+        <EditText
+            android:id="@+id/codeinput"
+            android:layout_height="55dp"
+            android:layout_width="220dp"
+            android:inputType="number"
+            android:background="@drawable/rounded_edittext"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:gravity="center"
+            android:letterSpacing="0.7"
+            android:maxLength="4"
+            android:textCursorDrawable="@null"
+            fontPath="fonts/geomanist-bold.ttf"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/newmember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/newstring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Petit nouveau ?"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:layout_marginBottom="26dp"
+            fontPath="fonts/geomanist-bold.ttf"/>
+
+        <Button
+            android:id="@+id/createteambutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_team_button"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.1"
+            android:background="@drawable/rounded_button"
+            fontPath="font/geomanist-medium.ttf" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
