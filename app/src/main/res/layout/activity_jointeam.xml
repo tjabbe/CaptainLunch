@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:ignore="MissingPrefix"
+    tools:context=".JoinTeamActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/jointeamform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:id="@+id/inputnameteam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                fontPath="fonts/geomanist-regular.ttf"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:background="@drawable/input"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/inputfirstnameteam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/inputnameteam"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/firstname"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                fontPath="fonts/geomanist-regular.ttf"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:background="@drawable/input"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/jointeambutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/next_button"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:letterSpacing="0.1"
+        android:background="@drawable/rounded_button"
+        fontPath="font/geomanist-medium.ttf" />
+
+</RelativeLayout>
