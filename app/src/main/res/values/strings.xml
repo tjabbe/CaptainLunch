@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Captain Lunch</string>
+
+    <string name="create_team_button">Je crée mon équipe</string>
+    <string name="next_button">Suivant</string>
+
+    <string name="name">Nom</string>
+    <string name="firstname">Prénom</string>
+    <string name="teamname">Nom de l\'équipe</string>
+    <string name="adress">Adresse</string>
 </resources>
